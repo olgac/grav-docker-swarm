@@ -6,6 +6,6 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - grav-data:/var/www/grav-admin/
+      - grav-data:/var/www
 volumes:
   grav-data:
